@@ -118,7 +118,6 @@ export default class TakeQuiz extends Component {
           <h1>{this.props.quiz.name}</h1>
           <h1>Subject: {this.props.quiz.subject}</h1>
           <h1>Room: {this.props.quiz.id}</h1>
-          <button onClick={this.sendSocket}>Click</button>
         </header>
         <section>
           <h3>{this.props.quiz.questions[this.state.currentQuestion].question_text}</h3>
